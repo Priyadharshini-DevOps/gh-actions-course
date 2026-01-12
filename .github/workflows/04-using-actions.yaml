@@ -19,4 +19,4 @@ jobs:
  
       - name: Install Dependencies
         run: npm ci
-        working-directory: gh-actions-course/04-using-actions/react-app
+        working-directory: .github/04-using-actions/react-app
