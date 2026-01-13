@@ -7,8 +7,6 @@ jobs:
           run:
             working-directory: 04-using-actions/react-app
         steps:
-            - name: Checkout code
-              uses: actions/checkout@v4
             - name: Setup Node
               uses: actions/setup-node@v4
               with:
